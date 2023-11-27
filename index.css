@@ -304,7 +304,13 @@ body {
     font-family: "Roboto";
     text-align: center;
 }
-
+.page1 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #c3cefe;
+    padding: 50%;
+}
 .page3 {
     position: relative;
     height: 100vh;
