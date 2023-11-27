@@ -119,7 +119,7 @@ body {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #c3cefe;
+    background-color: lightblue;
     padding: 50%;
 }
 
@@ -304,24 +304,18 @@ body {
     font-family: "Roboto";
     text-align: center;
 }
-.page1 {
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    background-color: #c3cefe;
-    padding: 50%;
-}
+
 .page3 {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #c3cefe;
+    background-color: grey;
     padding: 50%;
 }
 
 .end {
     height: 100vh;
-    background-color: #bab0ee;
+    background-color: lightviolet;
     text-align: center;
     padding-bottom: 55px;
 
