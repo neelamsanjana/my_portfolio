@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.img {
+    border-radius: 50%;
+    padding: 2px;
+    height: 5%;
+    width: 50%;
+
+    top: -10%;
+
+}
+
+.main {
+    position: relative;
+    overflow: hidden;
+}
+
+#page>#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: absolute;
+    z-index: 9;
+    height: 10%;
+    width: 100%;
+
+}
+
+.html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+#center-nav {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+#center-nav>a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.text {
+    padding: 30px 50px;
+    position: relative;
+    top: 18%;
+    left: 8%;
+    width: 35%;
+    scale: 1.1%;
+}
+
+.text>h1 {
+    font-size: 60px;
+    line-height: 1;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.text>h4 {
+    margin-top: 30px;
+    color: #2b2b2b;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+.text>h5 {
+    color: #8873EF;
+    transform: rotate(-20deg);
+    position: absolute;
+    left: 3%;
+}
+
+.button {
+    position: absolute;
+    left: 0%;
+    bottom: 18%;
+    height: 20%;
+    width: 100%;
+
+}
+
+.buttons>button {
+    padding: 10px 22px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 500;
+}
+
+.buttons>button>a {
+    font-size: 20px;
+    color: wheat;
+}
+
+#buttons>#b2 {
+    margin-left: 10px;
+    background-color: yellow;
+    font-size: 20px;
+    padding: 6px;
+}
+
+
+
+.page1 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #c3cefe;
+    padding: 50%;
+}
+
+.page1>#right {
+    position: absolute;
+    right: 5%;
+    height: 90%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35%;
+    /* padding: 50px; */
+}
+
+.right>.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 33.3%;
+    width: 100%;
+    border-top: 2px solid #000;
+
+}
+
+.left.box>h1 {
+    font-size: 35px;
+}
+
+.text1 {
+    margin: 50px 50px;
+    height: 30%;
+    width: 50%;
+    position: absolute;
+    z-index: 9;
+}
+
+.text1>h1 {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.text-h4 {
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+    width: 70%;
+    margin-top: 50px;
+}
+
+.text1>h5 {
+    transform: rotate(-20deg);
+    position: absolute;
+    left: -25%;
+    color: #8873EF;
+}
+
+.page1>img {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 10%;
+}
+
+.page2san {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+
+#project {
+    width: 90%;
+
+    align-items: center;
+    display: flex;
+    left: 5%;
+    transform: translateX(-50%);
+    bottom: 5%;
+    justify-content: space-between;
+}
+
+
+
+.nav>.input {
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+}
+
+.left>.box {
+    margin-left: 20px;
+}
+
+
+.card {
+    background-color: white;
+    padding: 5px;
+    height: 155vh;
+
+}
+
+.b2 {
+    width: 128px;
+    background-color: black;
+    color: white;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#page>#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: absolute;
+    z-index: 9;
+    height: 10%;
+    width: 100%;
+}
+
+
+
+#page {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+
+.projects {
+    border-top: 2px solid #000;
+    height: 50%;
+
+}
+
+.text3 {
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 20px;
+    height: 20%;
+    width: 100%;
+
+}
+
+#image.img {
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.p1 img {
+    height: 200px;
+    width: 30px;
+}
+
+.p2 {
+    position: relative;
+    top: -20%;
+}
+
+.p3 {
+    position: relative;
+    top: -50%;
+}
+
+.text4 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    height: 20%;
+    width: 30%;
+}
+
+#text4>h1 {
+    margin-top: 20px;
+    font-size: 45px;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.page3 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #c3cefe;
+    padding: 50%;
+}
+
+.end {
+    height: 100vh;
+    background-color: #bab0ee;
+    text-align: center;
+    padding-bottom: 55px;
+
+}
+
+
+
+.contact-me h2 {
+    font-size: 40px;
+}
+
+.contact-me p {
+    font-size: 30px;
+
+}
+
+.contact-me {
+    width: 100%;
+    height: 570px;
+    font-weight: bold;
+    position: relative;
+
+
+}
+
+.collab {
+    font-size: 3.1rem;
+    font-family: 'Montserrat', sans-Serif;
+    display: block;
+    margin: 100px auto;
+    padding: 30px 0;
+    font-weight: bolder;
+}
+
+.Copyright {
+    color: black;
+    font-size: 8px;
+    margin: 0px;
+    padding: 8px 0 8px 0;
+
+}
+
+.btn {
+    padding: 7px 7px;
+}
+
+.btn>img {
+    border-radius: 60%;
+    position: relative;
+    bottom: 40px;
+}
+
+.profile-text {
+    font-size: 1.3rem;
+}
+
+.profile-div {
+    padding: 0 18%;
+    text-align: center;
+    align-items: center;
+}
+
+.a {
+    text-decoration: underline;
+    color: #0765a0;
+    font-size: large;
+}
+
+
+
+.break {
+    height: 2px;
+}
+
+#break {
+    height: 2px;
+}
+
+.nav-item>a {
+    color: #3e3e3e !important;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 7px 20px;
+    text-transform: uppercase;
+}
+
+.header-section {
+    background-color: black;
+}
+
+.text2 {
+    background-color: lightblue;
+    padding: 15%;
+
+    text-align: center;
+    padding-bottom: 48px;
+
+}
